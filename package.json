@@ -1,15 +1,13 @@
 {
-  "name": "yandex_page",
-  "version": "1.0.0",
-  "description": "Yandex Page Project",
-  "main": "index.js",
+  "name": "nc-project",
+  "version": "0.0.1",
+  "description": "NC Project",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "Egor Shirobokov",
   "license": "ISC",
   "dependencies": {
-    "angular": "^1.7.4"
   },
   "devDependencies": {
     "browser-sync": "^2.24.7",

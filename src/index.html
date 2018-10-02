@@ -11,140 +11,136 @@
 <body>
 
 <div class="layout">
-    <header class="header-page">
-        <div class="header-page__location">
+    <header class="layout-header">
+        <div class="layout-header__location">
             <div class="t-location">
                 <a href="#" class="t-link t-link_gray">
                     <span class="t-link__text">Москва</span>
                 </a>
             </div>
         </div>
-        <div class="header-page__news">
-            <section class="news">
-                <header class="news__header">
-                    <a class="t-link" href="#">
-                        <span class="t-link__news-title _bold">Сейчас в СМИ</span>
-                    </a>
-                    <a class="t-link" href="#">
-                        <span class="t-link__news-title">В Москве</span>
-                    </a>
-                    <span class="news__header-time">26 сентября, вторник</span>
-                    <a href="#" class="t-link t-link_gray">23:32</a>
-                </header>
-                <div class="news__content">
-                    <ol class="news-list">
-                        <li class="news-list__item">
-                            <a class="t-link t-link_dark" href="#">
-								<span class="t-link__news-text">
-									Выступление Трампа на Генассамблее ООН вызвало смех в зале
-								</span>
-                            </a>
-                        </li>
-                        <li class="news-list__item">
-                            <a class="t-link t-link_dark" href="#">
-								<span class="t-link__news-text">
-									Лавров призвал Запад вразумить Украину
-								</span>
-                            </a>
-                        </li>
-                        <li class="news-list__item">
-                            <a class="t-link t-link_dark" href="#">
-								<span class="t-link__news-text">
-									Адвокаты Роналду подадут в суд на Spiegel за статьи об изнасиловании
-								</span>
-                            </a>
-                        </li>
-                        <li class="news-list__item">
-                            <a class="t-link t-link_dark" href="#">
-								<span class="t-link__news-text">
-									Володин выступил против выделения депутатам представительских расходов
-								</span>
-                            </a>
-                        </li>
-                        <li class="news-list__item">
-                            <a class="t-link t-link_dark" href="#">
-								<span class="t-link__news-text">
-									На Украине националисты захватили храм и ранили двух прихожан
-								</span>
-                            </a>
-                        </li>
-                    </ol>
-                </div>
-                <footer class="news__footer">
-                    <div class="currency-list">
-                        <div class="currency-list__item">
-                            <a class="t-link t-link_dark" href="#">
-                                <span class="t-link_currency-list _bold">USD MOEX</span>
-                            </a>
-                            <span class="currency-list__rate">65,89</span>
-                        </div>
-                        <div class="currency-list__item">
-                            <a class="t-link t-link_dark" href="#">
-                                <span class="t-link_currency-list _bold">EUR MOEX</span>
-                            </a>
-                            <span class="currency-list__rate">77,54</span>
-                        </div>
-                        <div class="currency-list__item">
-                            <a class="t-link t-link_dark" href="#">
-                                <span class="t-link_currency-list _bold">НЕФТЬ</span>
-                            </a>
-                            <span class="currency-list__rate">81,52</span>
-                        </div>
-                        <div class="currency-list__extension">
-                            <button class="t-button-ellipsis"></button>
-                        </div>
-                    </div>
-                </footer>
-            </section>
-        </div>
-        <div class="header-page__account-settings">
+        <div class="layout-header__settings">
             <a href="#" class="t-link t-link_dark t-link_account">
                 <span class="t-link__account-text">Настройка</span>
             </a>
         </div>
-        <div class="header-page__account-block">
-            <a href="#" class="account t-link t-link_dark">
-                <span class="account__nickname _bold"><span class="account__nickname-letter">e</span>ashirobokov</span>
-                <img src="assets/themes/base/img/avatar.png" alt="avatar" class="icon_avatar">
-            </a>
-
-            <ul class="widget__list">
-                <li class="widget__list-item">
-                    <a class="t-link t-link_dark" href="#">
-                        <span class="t-link_widget-text">Почта</span>
-                    </a>
-
-                    <span class="t-link_widget-text t-link_gray">новых нет</span>
-                </li>
-
-                <li class="widget__list-item">
-                    <a class="t-link t-link_dark" href="#">
-                        <span class="t-link_widget-text">Написать письмо</span>
-                    </a>
-                </li>
-
-                <li class="widget__list-item">
-                    <a class="t-link t-link_dark" href="#">
-                        <span class="t-link_widget-text">Деньги 0 руб.</span>
-                    </a>
-                </li>
-
-                <li class="widget__list-item">
-                    <a class="t-link t-link_dark" href="#">
-                        <span class="t-link_widget-text">Диск</span>
-                    </a>
-                </li>
-
-                <li class="widget__list-item">
-                    <a class="t-link t-link_dark t-link_blue" href="#">
-                        <span class="t-link_widget-text _bold">Получить Плюс</span>
-                    </a>
-                </li>
-            </ul>
-
-        </div>
     </header>
-    <main class="content-page">
+    <div class="account-block">
+        <a href="#" class="account-block__item t-link t-link_dark">
+            <span class="_bold"><span class="t-link_red">e</span>ashirobokov</span>
+            <img src="assets/themes/base/img/avatar.png" alt="avatar" class="icon_avatar">
+        </a>
+        <ul class="widget__list">
+            <li class="widget__list-item">
+                <a class="t-link t-link_dark" href="#">
+                    <span class="t-link_widget-text">Почта</span>
+                </a>
+
+                <span class="t-link_widget-text t-link_gray">новых нет</span>
+            </li>
+
+            <li class="widget__list-item">
+                <a class="t-link t-link_dark" href="#">
+                    <span class="t-link_widget-text">Написать письмо</span>
+                </a>
+            </li>
+
+            <li class="widget__list-item">
+                <a class="t-link t-link_dark" href="#">
+                    <span class="t-link_widget-text">Деньги 0 руб.</span>
+                </a>
+            </li>
+
+            <li class="widget__list-item">
+                <a class="t-link t-link_dark" href="#">
+                    <span class="t-link_widget-text">Диск</span>
+                </a>
+            </li>
+
+            <li class="widget__list-item">
+                <a class="t-link t-link_dark t-link_blue" href="#">
+                    <span class="t-link_widget-text _bold">Получить Плюс</span>
+                </a>
+            </li>
+        </ul>
+    </div>
+    <main class="layout-content">
+        <section class="news">
+            <header class="news__header">
+                <a class="t-link" href="#">
+                    <span class="t-link__news-title _bold">Сейчас в СМИ</span>
+                </a>
+                <a class="t-link" href="#">
+                    <span class="t-link__news-title">В Москве</span>
+                </a>
+                <span class="news__header-time">26 сентября, вторник</span>
+                <a href="#" class="t-link t-link_gray">23:32</a>
+            </header>
+            <div class="news__content">
+                <ol class="news-list">
+                    <li class="news-list__item">
+                        <a class="t-link t-link_dark" href="#">
+								<span class="t-link__news-text">
+									Выступление Трампа на Генассамблее ООН вызвало смех в зале
+								</span>
+                        </a>
+                    </li>
+                    <li class="news-list__item">
+                        <a class="t-link t-link_dark" href="#">
+								<span class="t-link__news-text">
+									Лавров призвал Запад вразумить Украину
+								</span>
+                        </a>
+                    </li>
+                    <li class="news-list__item">
+                        <a class="t-link t-link_dark" href="#">
+								<span class="t-link__news-text">
+									Адвокаты Роналду подадут в суд на Spiegel за статьи об изнасиловании
+								</span>
+                        </a>
+                    </li>
+                    <li class="news-list__item">
+                        <a class="t-link t-link_dark" href="#">
+								<span class="t-link__news-text">
+									Володин выступил против выделения депутатам представительских расходов
+								</span>
+                        </a>
+                    </li>
+                    <li class="news-list__item">
+                        <a class="t-link t-link_dark" href="#">
+								<span class="t-link__news-text">
+									На Украине националисты захватили храм и ранили двух прихожан
+								</span>
+                        </a>
+                    </li>
+                </ol>
+            </div>
+            <footer class="news__footer">
+                <div class="currency-list">
+                    <div class="currency-list__item">
+                        <a class="t-link t-link_dark" href="#">
+                            <span class="t-link_currency-list _bold">USD MOEX</span>
+                        </a>
+                        <span class="currency-list__rate">65,89</span>
+                    </div>
+                    <div class="currency-list__item">
+                        <a class="t-link t-link_dark" href="#">
+                            <span class="t-link_currency-list _bold">EUR MOEX</span>
+                        </a>
+                        <span class="currency-list__rate">77,54</span>
+                    </div>
+                    <div class="currency-list__item">
+                        <a class="t-link t-link_dark" href="#">
+                            <span class="t-link_currency-list _bold">НЕФТЬ</span>
+                        </a>
+                        <span class="currency-list__rate">81,52</span>
+                    </div>
+                    <div class="currency-list__extension">
+                        <button class="t-button-ellipsis"></button>
+                    </div>
+                </div>
+            </footer>
+        </section>
         <section class="search">
             <nav class="search__menu">
                 <a class="t-link" href="#">
